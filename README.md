@@ -28,21 +28,6 @@ Many **business analysts, consultants, and investors** need **structured company
 - **Excel** (xlsxwriter, openpyxl)
 - **Regular Expressions & String Processing**
 
-## 🚀 How to Use
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/rmodregoe/company-classification.git
-2. **Install dependencies**:
-   ```bash
-   pip install pandas numpy playwright openpyxl xlsxwriter
-3. **Run the script**:
-  ```bash
-  python Companies_classification.py
-4. **View the results**:
-  - The script generates an Excel report with company classifications
-  - The files are saved as:
-    -**Listado_YYYYMMDD_HHMMSS.xlsx** (Raw extracted company data)
-    -**Análisis_empresas_YYYYMMDD_HHMMSS.xlsx** (Industry classification & insights)
 ## 📊 Expected Output
 - **Sheet 1:** Full company list (**Name, Revenue, Sector, Province**).
 - **Sheet 2:** **Revenue by industry** (Summed revenue per high-level classification).
@@ -57,7 +42,4 @@ Many **business analysts, consultants, and investors** need **structured company
 👤 **Ricardo Modrego**  
 📌 **[LinkedIn](https://www.linkedin.com/in/rmodrego/)**  
 📧 **r.modrego.e@gmail.com**  
-
-## ⚖️ License
-This project is licensed under the **MIT License**.
  
